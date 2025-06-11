@@ -50,5 +50,5 @@ jobs:
       # Step 7: Push the Docker image to GCP Artifact Registry
       - name: Push Docker Image - POC
         run: |
-          docker push europe-west1-docker.pkg.dev/poc-setup-462605/poc-docker-repo/poc-app:latest
+          docker push europe-west1-docker.pkg.dev/poc-setup-462605/poc-docker-repo/poc-1:latest
           # Pushes built image to the Artifact Registry
